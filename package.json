@@ -1,0 +1,10 @@
+{
+  "name": "wedtech-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Protótipo demonstrativo WedTech, sem dependências externas",
+  "scripts": {
+    "start": "node server.cjs",
+    "check": "node --check dist/app.js && node --test tests/state.test.cjs"
+  }
+}
