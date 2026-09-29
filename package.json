@@ -1,10 +1,11 @@
 {
   "name": "wedtech-demo",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
-  "description": "Protótipo demonstrativo WedTech, sem dependências externas",
+  "description": "WedTech — estoque omnichannel para o lojista de bairro (protótipo de hackathon, sem dependências externas)",
   "scripts": {
     "start": "node server.cjs",
-    "check": "node --check dist/app.js && node --test tests/state.test.cjs"
+    "test": "node --test tests/core.test.cjs tests/app.test.cjs",
+    "check": "node --check public/assets/js/core/wedtech-core.js && node --check public/assets/js/loja/loja.js && node --test tests/core.test.cjs tests/app.test.cjs"
   }
 }
