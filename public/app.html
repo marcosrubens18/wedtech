@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#081a2e" />
+    <meta name="description" content="WedTech — painel do lojista: loja física, site e marketplaces com um estoque só." />
+    <title>WedTech — Painel do lojista</title>
+    <link rel="icon" href="assets/img/favicon-wedtech.png" type="image/png" />
+    <link rel="stylesheet" href="assets/css/app.css" />
+    <link rel="stylesheet" href="assets/css/brand.css" />
+    <link rel="stylesheet" href="assets/css/app-components.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="toast" role="status" aria-live="polite"></div>
+
+    <!-- Bibliotecas locais (sem internet) -->
+    <script src="assets/js/vendor/qrcode.js"></script>
+    <script src="assets/js/shared/barcode.js"></script>
+
+    <!-- Núcleo: regras de negócio, automações e IA (o mesmo usado pelo site da loja) -->
+    <script src="assets/js/core/catalogos.js"></script>
+    <script src="assets/js/core/calendario.js"></script>
+    <script src="assets/js/core/wedtech-core.js"></script>
+
+    <!-- Painel: base, estrutura, telas, ações e eventos -->
+    <script src="assets/js/app/base.js"></script>
+    <script src="assets/js/app/layout.js"></script>
+    <script src="assets/js/app/paginas/inicio.js"></script>
+    <script src="assets/js/app/paginas/balcao.js"></script>
+    <script src="assets/js/app/paginas/pedidos.js"></script>
+    <script src="assets/js/app/paginas/estoque.js"></script>
+    <script src="assets/js/app/paginas/produtos.js"></script>
+    <script src="assets/js/app/paginas/canais.js"></script>
+    <script src="assets/js/app/paginas/compras.js"></script>
+    <script src="assets/js/app/paginas/sazonalidade.js"></script>
+    <script src="assets/js/app/paginas/ads.js"></script>
+    <script src="assets/js/app/paginas/financeiro.js"></script>
+    <script src="assets/js/app/paginas/automacoes.js"></script>
+    <script src="assets/js/app/paginas/ia.js"></script>
+    <script src="assets/js/app/paginas/config.js"></script>
+    <script src="assets/js/app/acoes.js"></script>
+    <script src="assets/js/app/main.js"></script>
+  </body>
+</html>
